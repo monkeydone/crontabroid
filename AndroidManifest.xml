@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         
-        <receiver android:name=".RepeatingAlarm"></receiver>
+        <receiver android:name=".CrontabTip"></receiver>
     </application>
 
 </manifest>
