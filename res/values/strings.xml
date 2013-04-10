@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World, CrontabroidActivity!</string>
     <string name="app_name">Crontabroid</string>
+    <string name="start_repeating_alarm">start</string>
+    <string name="stop_repeating_alarm">stop</string>
 
 </resources>
