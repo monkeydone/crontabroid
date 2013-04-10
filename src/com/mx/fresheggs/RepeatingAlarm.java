@@ -20,6 +20,7 @@ package com.mx.fresheggs;
 import android.content.Context;
 import android.content.Intent;
 import android.content.BroadcastReceiver;
+import android.os.Vibrator;
 import android.widget.Toast;
 
 public class RepeatingAlarm extends BroadcastReceiver
@@ -27,6 +28,8 @@ public class RepeatingAlarm extends BroadcastReceiver
     @Override
     public void onReceive(Context context, Intent intent)
     {
+    	Vibrator b=(Vibrator) context.getSystemService(context.VIBRATOR_SERVICE);
+    	b.vibrate(3000);
         Toast.makeText(context, "repeating_received", Toast.LENGTH_SHORT).show();
     }
 }
